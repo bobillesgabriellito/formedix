@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@page-objects/*": [
+        "./src/pageobjects/*"
+      ],
+      "@input-data/*": [
+        "./src/lib/testdata/*"
+      ],
+     "@core-libs/*": [
+        "./src/lib/*"
+      ],
+      "@step-objects/*": [
+        "src/stepsDefinitions/*"
+      ],
+    },
+    "types": [
+      "node",
+      "webdriverio",
+      "webdriverio/async"
+  ]
+  }
+}
